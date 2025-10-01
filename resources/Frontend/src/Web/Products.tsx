@@ -16,7 +16,7 @@ function Products() {
             originalPrice: 179.99,
             rating: 4.5,
             reviewCount: 128,
-            image: "https://cdn-icons-png.flaticon.com/512/2972/2972425.png",
+            image: "/headset.png",
             category: "electronics",
             discount: 28,
             isFreeShipping: true
@@ -28,7 +28,7 @@ function Products() {
             originalPrice: 89.99,
             rating: 4.2,
             reviewCount: 342,
-            image: "https://cdn-icons-png.flaticon.com/512/892/892458.png",
+            image: "laptop.png",
             category: "electronics",
             discount: 49,
             isFreeShipping: true
@@ -40,7 +40,7 @@ function Products() {
             originalPrice: 29.99,
             rating: 4.3,
             reviewCount: 89,
-            image: "https://cdn-icons-png.flaticon.com/512/3103/3103445.png",
+            image: "smartwatch.png",
             category: "electronics",
             discount: 47,
             isFreeShipping: false
@@ -52,7 +52,7 @@ function Products() {
             originalPrice: 19.99,
             rating: 4.1,
             reviewCount: 156,
-            image: "https://cdn-icons-png.flaticon.com/512/2553/2553786.png",
+            image: "laptop.png",
             category: "electronics",
             discount: 35,
             isFreeShipping: true
@@ -64,7 +64,7 @@ function Products() {
             originalPrice: 14.99,
             rating: 4.6,
             reviewCount: 289,
-            image: "https://cdn-icons-png.flaticon.com/512/3103/3103445.png",
+            image: "/headset.png",
             category: "accessories",
             discount: 40,
             isFreeShipping: true
@@ -76,7 +76,7 @@ function Products() {
             originalPrice: 39.99,
             rating: 4.4,
             reviewCount: 78,
-            image: "https://cdn-icons-png.flaticon.com/512/3176/3176286.png",
+            image: "smartwatch.png",
             category: "accessories",
             discount: 38,
             isFreeShipping: true
@@ -88,7 +88,7 @@ function Products() {
             originalPrice: 34.99,
             rating: 4.5,
             reviewCount: 203,
-            image: "https://cdn-icons-png.flaticon.com/512/2972/2972425.png",
+            image: "/headset.png",
             category: "electronics",
             discount: 43,
             isFreeShipping: true
@@ -100,7 +100,7 @@ function Products() {
             originalPrice: 39.99,
             rating: 4.2,
             reviewCount: 167,
-            image: "https://cdn-icons-png.flaticon.com/512/2972/2972425.png",
+            image: "/headset.png",
             category: "electronics",
             discount: 43,
             isFreeShipping: false
@@ -112,7 +112,7 @@ function Products() {
             originalPrice: 12.99,
             rating: 4.3,
             reviewCount: 89,
-            image: "https://cdn-icons-png.flaticon.com/512/702/702814.png",
+            image: "/headset.png",
             category: "accessories",
             discount: 46,
             isFreeShipping: true
@@ -124,7 +124,7 @@ function Products() {
             originalPrice: 16.99,
             rating: 4.4,
             reviewCount: 234,
-            image: "https://cdn-icons-png.flaticon.com/512/2972/2972425.png",
+            image: "/headset.png",
             category: "electronics",
             discount: 41,
             isFreeShipping: true
@@ -136,7 +136,7 @@ function Products() {
             originalPrice: 49.99,
             rating: 4.3,
             reviewCount: 156,
-            image: "https://cdn-icons-png.flaticon.com/512/702/702814.png",
+            image: "/headset.png",
             category: "electronics",
             discount: 42,
             isFreeShipping: true
@@ -148,7 +148,7 @@ function Products() {
             originalPrice: 14.99,
             rating: 4.1,
             reviewCount: 189,
-            image: "https://cdn-icons-png.flaticon.com/512/3103/3103445.png",
+            image: "/headset.png",
             category: "accessories",
             discount: 47,
             isFreeShipping: true
@@ -269,7 +269,6 @@ function Products() {
                                 {product.name}
                             </h3>
 
-                            {/* Rating */}
                             <div className="flex items-center space-x-1 mb-1">
                                 <div className="flex items-center space-x-0.5">
                                     <FaStar className="h-2.5 w-2.5 text-amber-500" />

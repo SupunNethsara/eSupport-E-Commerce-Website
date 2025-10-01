@@ -1,6 +1,7 @@
 import Navbar from "./navbar.tsx";
 import SliderSection from "./SliderSection.tsx";
 import Products from "./Products.tsx";
+import Category from "./Category.tsx";
 
 function IntroScreen() {
     return (
@@ -8,6 +9,7 @@ function IntroScreen() {
             <Navbar />
             <SliderSection/>
             <Products/>
+            <Category/>
         </div>
     );
 }
