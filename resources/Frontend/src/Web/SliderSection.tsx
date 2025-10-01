@@ -63,7 +63,7 @@ function SliderSection() {
     return (
         <section
             id="home"
-            className="py-8 md:py-16 bg-gradient-to-br from-orange-50 via-orange-25 to-orange-50"
+            className="py-8 md:py-16 mt-10 bg-gradient-to-br from-orange-50 via-orange-25 to-orange-50"
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="relative bg-gradient-to-br from-orange-400 to-[#fa0032] border border-orange-300 rounded-2xl overflow-hidden shadow-2xl shadow-orange-500/25 hover:shadow-orange-500/35 transition-all duration-500">
