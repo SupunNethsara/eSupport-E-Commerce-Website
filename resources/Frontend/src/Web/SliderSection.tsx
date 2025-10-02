@@ -120,7 +120,7 @@ function SliderSection() {
 
                                         <div className="flex justify-center px-4 md:px-6">
                                             <div className="relative">
-                                                <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/10 rounded-2xl transform rotate-3 scale-105 opacity-60"></div>
+                                                <div className="absolute inset-0 bg-gradient-to-br from-white/60 to-white/70 rounded-2xl transform rotate-3 scale-105 opacity-60"></div>
                                                 <img
                                                     src={slide.image}
                                                     alt={slide.title}
